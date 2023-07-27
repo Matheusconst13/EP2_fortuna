@@ -1,5 +1,3 @@
-# EP2_fortuna
-
 def transforma_base(questoes):
     base = {}
 
