@@ -47,3 +47,13 @@ def valida_questao(questao):
         validacao['correta'] = 'valor_errado'
 
     return validacao
+
+
+def valida_questoes(questoes):
+    problemas_questoes = []
+
+    for questao in questoes:
+        problemas = valida_questao(questao)
+        problemas_questoes.append(problemas)
+
+    return problemas_questoes
